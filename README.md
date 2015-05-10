@@ -3,6 +3,9 @@
  预备知识点 
   pureMVC  参考最佳实践
   mornui   参看 http://www.mornui.com/
+  
+  pureFox只是一个框架，基于框架之上，可以构建各种游戏引擎，如 SLG，ARPG 等。
+  有问题请咨询 as_fox#qq.com
 
 1 如何使用pureFox框架
 
