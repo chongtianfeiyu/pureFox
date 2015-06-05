@@ -149,7 +149,7 @@
           			this.fox_registerMediator 使用该方法 注册 界面管理器
           			this.fox_registerProxy 使用该方法 注册 代理
           			
-          			也可以使用facade的方法，但是插件移除后，注册的pureMVC内容不会被移除掉。
+          			也可以使用facade的方法，但是插件移除后，注册的pureMVC内容不会被自动移除掉。
           			this.facade.registerCommand
           			this.facade.registerMediator
           			this.facade.registerProxy
