@@ -1,8 +1,8 @@
 # pureFox     
-应用案例(不要在意美术细节)     
+应用案例(不要在意美术细节) www.7rob.com 网页版现代战争题材《Game of War》          
 ![image](https://github.com/foxoo7/pureFox/blob/master/p1.jpg)    
 ![image](https://github.com/foxoo7/pureFox/blob/master/p2.jpg)    
-www.7rob.com 网页版现代战争题材《Game of War》   
+   
 基于pureMVC，mornui的插件化页游框架    
  预备知识点    
   pureMVC  参考最佳实践     
