@@ -24,31 +24,32 @@ www.7rob.com 网页版现代战争题材《Game of War》
       1 将pureFox作为库项目 如：pureFoxFramework        
       2 创建游戏项目，将pureFoxFramework添加到游戏项目        
       3 游戏项目目录结构        
-          assets        
-            img 图片资源        
-            sound 声音资源        
-            configs 配置文件        
-          global        
-            保存用于发生通知的KEY        
-          manangers        
-            common 通用管理器。如 网络管理，声音管理，缓存管理，GC管理，日志管理，等游戏通用的管理器        
-            extensive 扩展管理器。如 特效管理，战斗管理，图层管理，数据管理，等不同游戏不通用的管理器        
-          plugins        
-            myplugin1 具体的某一个插件        
-              view 保存界面管理器 mediator        
-              modle 保存 vo 和 proxy        
-              contoller 保存 command        
-              MyPlugin1.as 需要继承FoxPlugin        
-            myplugin2        
+        --assets        
+            ---img 图片资源        
+            ---sound 声音资源        
+            ---configs 配置文件        
+        --global        
+            ---保存用于发生通知的KEY        
+        --manangers        
+            ---common 通用管理器。如 网络管理，声音管理，缓存管理，GC管理，日志管理，等游戏通用的管理器        
+            ---extensive 扩展管理器。如 特效管理，战斗管理，图层管理，数据管理，等不同游戏不通用的管理器        
+        --plugins        
+            ---myplugin1 具体的某一个插件        
+              ----view 保存界面管理器 mediator        
+              ----modle 保存 vo 和 proxy        
+              ----contoller 保存 command        
+              ----MyPlugin1.as 需要继承FoxPlugin        
+            ---myplugin2        
               ...        
-            myplugin3        
+            ---myplugin3        
               ...        
             ...        
-          ui        
-            保存mornui导出的界面AS        
-          Client.as 客户端入口，必须继承FoxClient        
+        --ui        
+            ---保存mornui导出的界面AS        
+        --Client.as 客户端入口，必须继承FoxClient        
   2.2 编码流程        
-      1 创建GM类        
+      1 创建GM类     
+          //
           public class GM extends FoxMgr        
         	{        
         		public function GM()        
