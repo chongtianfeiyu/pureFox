@@ -1,22 +1,25 @@
 # pureFox
-基于pureMVC，mornui的插件化页游框架
- 预备知识点 
-  pureMVC  参考最佳实践
-  mornui   参看 http://www.mornui.com/
+![image](https://github.com/foxoo7/pureFox/trunk/p1.jpg)    
+![image](https://github.com/foxoo7/pureFox/trunk/p2.jpg)    
+www.7rob.com 网页版现代战争题材《Game of War》   
+基于pureMVC，mornui的插件化页游框架    
+ 预备知识点    
+  pureMVC  参考最佳实践     
+  mornui   参看 http://www.mornui.com/    
   
-  pureFox只是一个框架，基于框架之上，可以构建各种游戏引擎，如 SLG，ARPG 等。
-  有问题请咨询 as_fox#qq.com
+  pureFox只是一个框架，基于框架之上，可以构建各种游戏引擎，如 SLG，ARPG 等。       
+  有问题请咨询 as_fox#qq.com       
 
-1 如何使用pureFox框架
+1 如何使用pureFox框架      
 
-	 * 继承FoxClinet来启动puremvc框架
-	 * 继承FoxPlugin来制作插件，在插件里注册各种puremvc功能
-	 * 继承FoxMgr来 使用和扩展 管理器
+	 * 继承FoxClinet来启动puremvc框架      
+	 * 继承FoxPlugin来制作插件，在插件里注册各种puremvc功能    
+	 * 继承FoxMgr来 使用和扩展 管理器     
 	 * 
-	 * 游戏开启流程
-	 * 初始化mornui->初始化pureMVC框架->初始化基础manager->初始化扩展manager->游戏启动完毕->加载插件
+	 * 游戏开启流程     
+	 * 初始化mornui->初始化pureMVC框架->初始化基础manager->初始化扩展manager->游戏启动完毕->加载插件    
 
-2 具体实践
+2 具体实践        
   2.1 项目设计
       1 将pureFox作为库项目 如：pureFoxFramework
       2 创建游戏项目，将pureFoxFramework添加到游戏项目
