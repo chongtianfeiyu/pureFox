@@ -1,4 +1,5 @@
-# pureFox
+# pureFox     
+应用案例(不要在意美术细节)
 ![image](https://github.com/foxoo7/pureFox/blob/master/p1.jpg)    
 ![image](https://github.com/foxoo7/pureFox/blob/master/p2.jpg)    
 www.7rob.com 网页版现代战争题材《Game of War》   
